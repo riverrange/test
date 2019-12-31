@@ -35,7 +35,7 @@ const checkJwt = jwt({
 
   // Validate the audience and the issuer.
   audience: 'F511Tv0JfVmVBP78itHHLWSVOcs1Tb7s',
-  issuer: `https://<YOUR_AUTH0_DOMAIN>/`,
+  issuer: `https://dev-iavb9xzc.auth0.com/`,
   algorithms: ['RS256']
 });
 
